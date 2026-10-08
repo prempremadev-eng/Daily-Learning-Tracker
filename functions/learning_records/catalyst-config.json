@@ -1,0 +1,13 @@
+{
+	"deployment": {
+		"name": "learning_records",
+		"stack": "node20",
+		"type": "advancedio",
+		"env_variables": {
+			"TABLE_NAME": "LearningRecords"
+		}
+	},
+	"execution": {
+		"main": "index.js"
+	}
+}

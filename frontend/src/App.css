@@ -1,0 +1,132 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background: #f4f6fb;
+  color: #222;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.card {
+  background: #fff;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 16px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+}
+
+label {
+  display: block;
+  margin-bottom: 12px;
+  font-weight: 600;
+}
+
+input,
+textarea,
+select {
+  display: block;
+  width: 100%;
+  margin-top: 4px;
+  padding: 8px;
+  font: inherit;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.list-header select {
+  width: auto;
+}
+
+button {
+  padding: 8px 16px;
+  font: inherit;
+  border: none;
+  border-radius: 4px;
+  background: #3b6ef5;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+button.secondary {
+  background: #e3e7f0;
+  color: #222;
+}
+
+button.danger {
+  background: #e5484d;
+}
+
+.buttons,
+.actions {
+  display: flex;
+  gap: 8px;
+}
+
+.list-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+}
+
+.error {
+  background: #ffe5e5;
+  color: #b00020;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 8px;
+  border-bottom: 1px solid #eee;
+  vertical-align: top;
+}
+
+.badge {
+  padding: 2px 8px;
+  border-radius: 10px;
+  font-size: 0.85em;
+  white-space: nowrap;
+}
+
+.badge.done {
+  background: #d9f5e1;
+  color: #1a7f37;
+}
+
+.badge.progress {
+  background: #fff3cd;
+  color: #8a6d00;
+}
+
+/* Phone screens: let the table scroll sideways */
+@media (max-width: 600px) {
+  .card table {
+    display: block;
+    overflow-x: auto;
+  }
+}

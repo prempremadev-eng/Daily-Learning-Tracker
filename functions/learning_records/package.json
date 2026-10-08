@@ -1,0 +1,9 @@
+{
+	"name": "learning_records",
+	"version": "1.0.0",
+	"main": "index.js",
+	"author": "premprema.dev@gmail.com",
+	"dependencies": {
+		"zcatalyst-sdk-node": "latest"
+	}
+}

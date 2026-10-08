@@ -1,0 +1,12 @@
+{
+  "functions": {
+    "targets": [
+      "learning_records"
+    ],
+    "ignore": [],
+    "source": "functions"
+  },
+  "client": {
+    "source": "client"
+  }
+}

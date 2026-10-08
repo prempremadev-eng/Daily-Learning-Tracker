@@ -1,0 +1,30 @@
+{
+  "defaults": {
+    "project": 1,
+    "env": 1
+  },
+  "actives": {
+    "project": 1,
+    "env": 1
+  },
+  "projects": [
+    {
+      "idx": 1,
+      "id": "41255000000300716",
+      "name": "Daily-Learning-Tracker",
+      "domain": {
+        "id": "50046679097",
+        "name": "daily-learning-tracker-60072483450.development"
+      },
+      "timezone": "Asia/Kolkata",
+      "env": [
+        {
+          "idx": 1,
+          "id": "60072483450",
+          "name": "Development",
+          "type": 3
+        }
+      ]
+    }
+  ]
+}
